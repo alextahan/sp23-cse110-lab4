@@ -1,0 +1,2 @@
+1. `num1` and `num2` are both strings, not numbers. When calculateSum adds them, it just concatenates them together instead.
+2. I would fix it by converting the two input numbers to numbers using `Number()` before adding them.
